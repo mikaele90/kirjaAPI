@@ -17,3 +17,4 @@
 >
 >   eslint-config-airbnb-base@latest eslint@^5.16.0 || ^6.1.0 eslint-plugin-import@^2.18.2
 >   ? Would you like to install them now with npm? ! Yes
+*   npm run lint
