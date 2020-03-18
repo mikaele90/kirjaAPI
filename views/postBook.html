@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookAPI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" id="navbar-maindiv">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="navbar-brand" href="http://localhost:8000">BookAPI</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="navbar-link" href="http://localhost:8000/api/v1/test">Test</a></li>
+                <li class="active"><a id="navbar-link" href="http://localhost:8000/api/v1/books">Books</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="starter-template" style="padding-top: 60px;">
+        <h1>Welcome to the BookAPI</h1>
+        <p class="lead">POST demo</p>
+        <a href="/">Back to index</a>
+        <br><br>
+    </div>
+    <div id="test-container">
+        <form id="postForm">
+            <label for="bookTitle">Book title:</label>
+            <input type="text" id="bookTitle" name="bookTitle"><br>
+            <label for="bookAuthor">Book author:</label>
+            <input type="text" id="bookAuthor" name="bookAuthor"><br>
+            <label for="bookGenre">Book genre:</label>
+            <input type="text" id="bookGenre" name="bookGenre"><br>
+            <label for="bookYear">Published (Year):</label>
+            <input type="number" id="bookYear" name="bookYear"><br>
+            <button type="submit" name="submit" id="submit">Post book</button>
+            <button type="reset" value="Reset">Reset form</button>
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="js/postBook.js"></script>
+</body>
+</html>

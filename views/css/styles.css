@@ -1,0 +1,120 @@
+body {
+    background-color: lightblue;
+}
+a {
+    color: #303636;
+}
+a:hover {
+    color: #424b4b;
+}
+h1 {
+    text-align: center;
+    top: 10px;
+}
+input {
+    width: 250px;
+    margin: 0.2em;
+}
+td {
+    vertical-align: bottom;
+}
+hr {
+    border: 0.15em solid orange;
+}
+#navbar-maindiv {
+    background-color: #08002b;
+}
+#navbar-brand {
+    color: orange;
+    background-color: #05001a;
+}
+#navbar-brand:hover {
+    color: goldenrod;
+    background-color: #070027;
+}
+#navbar-link {
+    color: orange;
+    background-color: #08002b;
+}
+#navbar-link.active {
+    color: darkgoldenrod;
+    background-color: #0d0047;
+}
+#navbar-link:hover {
+    color: gold;
+    background-color: #0d0047;
+}
+#lead-p {
+    margin: 0.3em;
+}
+#bookTable {
+    border: solid 0.2em black;
+    width: 50em;
+    margin: 0.5em;
+}
+#bookTableKeyRow {
+    border: solid 0.1em black;
+}
+#bookTableTitleHeader {
+    border: solid 0.1em black;
+    padding: 0 0 0 0.5em;
+}
+#bookTableHeader {
+    text-align: center;
+}
+#bookTableGenericRow {
+    border: solid 0.1em orange;
+    height: 2.9em;
+}
+#bookTableTitleTd {
+    height: 2.9em;
+    border-right: solid 0.1em black;
+    padding: 0.55em 0 0 0.5em;
+}
+#bookTablePutTd, #bookTablePatchTd, #bookTableDeleteTd {
+    text-align: center;
+    padding: 0.5em;
+    vertical-align: top;
+}
+#searchInput{
+    font-size: 25px;
+    width: 350px;
+    border: solid 0.1em #000000;
+    float: left;
+    margin: 0em;
+    padding: 0.2em 0px 0.2em 0.2em;
+}
+#searchInputError {
+    font-size: 25px;
+    width: 350px;
+    border: solid 0.1em red;
+    float: left;
+    margin: 0em;
+    padding: 0.2em 0px 0.2em 0.2em;
+}
+#searchButton {
+    font-size: 25px;
+    background-color: orange;
+    color: black;
+    margin: 0px 0.5em 0px 0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+#bookCoverImage {
+    border: solid black 0.15em;
+}
+#imageButton {
+    color: red;
+    background-color: orange;
+    border: solid black 0.15em;
+    margin: 5px 10px 10px 0px;
+}
+#result{
+    padding-top: 0px;
+    margin-top:0px;
+}
+#addButton{
+    color: red;
+    background-color: orange;
+    border: solid black 0.15em;
+    margin: 5px 10px 10px 0px;
+}
