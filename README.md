@@ -29,7 +29,6 @@ ___
     * Location: `localhost:8000/api/v1/books`
     * Example Body: `{
                         "year": 2020,
-                        "_id": "5e7202f85889312f985b7983",
                         "title": "PostTest",
                         "genre": "Testing",
                         "author": "Post Author"
